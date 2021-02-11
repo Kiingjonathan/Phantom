@@ -56,7 +56,7 @@ int main() {
   // uint16_t lower_threshold = readReg16(LO_THRESH_REG);
   // uint16_t upper_threshold = readReg16(HI_THRESH_REG);
   uint16_t shock_ave = 0;
-  int iter_ave = 40;
+  int iter_ave = 50;
   for (int i = 0; i < iter_ave; i++){
   uint16_t adc_reg = readReg16(CONVERSION_REG);
   shock_ave = shock_ave + adc_reg;
