@@ -56,7 +56,7 @@ int main() {
   // uint16_t lower_threshold = readReg16(LO_THRESH_REG);
   // uint16_t upper_threshold = readReg16(HI_THRESH_REG);
 
-  for (int i = 0; i < 10; i++){
+  for (int i = 0; i < 15; i++){
   uint16_t adc_reg = readReg16(CONVERSION_REG);
   // printf("CONFIG_REG     0x%X\n", config);
   // printf("LO_THRESH_REG  %d\n", lower_threshold, (int16_t)lower_threshold); // default: 0x8000
