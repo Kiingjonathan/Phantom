@@ -64,7 +64,7 @@ int main() {
   // printf("LO_THRESH_REG  %d\n", lower_threshold, (int16_t)lower_threshold); // default: 0x8000
   // printf("HI_THRESH_REG  %d\n", upper_threshold, (int16_t)upper_threshold); // default: 0x7FFF
   printf(" %d, ", (int16_t)adc_reg);
-  if (i=20){
+  if (i = iter_ave){
     shock_ave = shock_ave/iter_ave;
     printf("average: %d", (int16_t)shock_ave);
   }
